@@ -1,4 +1,4 @@
-module ITKIOWrapper
+module WrapperITKIO
 using CxxWrap
 using ITKIOWrapper_jll
 
@@ -32,4 +32,4 @@ end
 
 greet() = print("Hello from ITKIOWrapper.jl!")
 
-end # module ITKIOWrapper
+end # module WrapperITKIO
